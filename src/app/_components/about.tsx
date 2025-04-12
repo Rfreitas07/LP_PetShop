@@ -38,7 +38,7 @@ export function About() {
         </div>
 
         <div className="space-y-6 mt-10">
-          <h2 className="text-4xl font-bold">sobre</h2>
+          <h2 className="text-4xl font-bold">Sobre</h2>
           <p>
             Until one has loved an animal, a part of one's soul remains
             unawakened. We believe in easy access to things that are good for
@@ -70,7 +70,8 @@ export function About() {
           </ul>
 
 <div className="flex gap-2 ">
-<a href="#" className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
+<a target="_blank"
+          href={`http://wa.me/31994948455?text=Olá, vim pelo site e gostaria de mais informações!`} className="bg-[#E84C3D] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md">
     <WhatsappLogo className="w-5 h-5 text-white" />
     Contato via WhatsApp
 </a>

@@ -103,7 +103,8 @@ function scrollNext(){
         <Clock className="w-4 h-4 "/>
         <span>{item.duration}</span>
     </div>
-    <a href="#" className="flex items-center justify-center gap-2 hover:bg-amber-700 px-4 py-1 rounded-md duration-300" >
+    <a target="_blank"
+          href={`http://wa.me/31994948455?text=Olá, vim pelo site e gostaria de mais informações sobre ${item.title}!`} className="flex items-center justify-center gap-2 hover:bg-amber-700 px-4 py-1 rounded-md duration-300" >
         <WhatsappLogo className="w-5 h-5" />
         Entrar em Contato
     </a>
